@@ -2,6 +2,7 @@ import Faq from "../components/Faq";
 import Hero from "../components/Hero";
 import Steps from "../components/Steps";
 import Footer from "../components/Footer";
+
 function Home() {
   return (
     <>
