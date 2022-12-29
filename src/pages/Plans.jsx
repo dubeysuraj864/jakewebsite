@@ -4,7 +4,7 @@ function Plans() {
   return (
     <>
       <div className="plans overflow-hidden">
-        <div className="top bg-gray-200 py-5 md:py-10">
+        <div className="top bg-[#e54f3f] text-white py-5 md:py-10">
           <div
             data-aos="flip-down"
             className="heading py-10 text-center font-bold flex justify-center text-8xl md:text-9xl"
@@ -14,7 +14,7 @@ function Plans() {
           <div className="para  text-center flex justify-center">
             <p
               data-aos="fade-right"
-              className="md:w-[60vw] text-md mx-6 md:mx-0 md:text-xl"
+              className="md:w-[60vw] font-medium text-md mx-6 md:mx-0 md:text-xl"
             >
               Thanks for showing an interest in my online coaching. Below you
               will find a breakdown of what you will get with my Online Coaching
@@ -38,7 +38,7 @@ function Plans() {
                 experience, injuries and much more.
               </div>
               <div className="btn w-full">
-                <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-yellow-400 rounded-lg">
+                <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-[#e54f3f] text-white rounded-lg">
                   Get Started!
                 </button>
               </div>
@@ -60,7 +60,7 @@ function Plans() {
                 your goal.
               </div>
               <div className="btn w-full">
-                <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-yellow-400 rounded-lg">
+                <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-[#e54f3f] text-white rounded-lg">
                   Get Started!
                 </button>
               </div>
@@ -83,7 +83,7 @@ function Plans() {
                 everyday life.
               </div>
               <div className="btn w-full">
-                <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-yellow-400 rounded-lg">
+                <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-[#e54f3f] text-white rounded-lg">
                   Get Started!
                 </button>
               </div>
