@@ -44,14 +44,14 @@ function Questions() {
       document.getElementById("svg_form_time").appendChild(circle);
     }
 
-    var circle = makeSVG("circle", {
+    var ccircle = makeSVG("circle", {
       cx: positionX + 200,
       cy: 12,
       r: 12,
       width: positionX,
       height: 6,
     });
-    document.getElementById("svg_form_time").appendChild(circle);
+    document.getElementById("svg_form_time").appendChild(ccircle);
 
     $("#svg_form_time rect").css("fill", base_color);
     $("#svg_form_time circle").css("fill", base_color);
@@ -61,7 +61,7 @@ function Questions() {
       $("#svg_form_time rect").css("fill", active_color);
       $("#svg_form_time circle").css("fill", active_color);
       var id = $(this).attr("id");
-      if (id == "next") {
+      if (id === "next") {
         $("#prev").removeClass("disabled");
         if (child >= length) {
           $(this).addClass("disabled");
@@ -70,7 +70,7 @@ function Questions() {
         if (child <= length) {
           child++;
         }
-      } else if (id == "prev") {
+      } else if (id === "prev") {
         $("#next").removeClass("disabled");
         $("#submit").addClass("disabled");
         if (child <= 2) {
@@ -101,7 +101,7 @@ function Questions() {
   return (
     <>
       {" "}
-      <div>
+      <div className="body">
         <div id="svg_wrap" className="text-black flex" />
         <h1>Online Coaching</h1>
         <section>
