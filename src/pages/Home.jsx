@@ -17,7 +17,7 @@ function Home() {
           <Faq />
         </div>
         <div>
-            <Footer/>
+          <Footer />
         </div>
       </div>
     </>

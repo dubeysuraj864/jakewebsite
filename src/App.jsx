@@ -3,10 +3,15 @@ import Navbar from "./components/Navbar";
 import Questions from "./components/Questions";
 import Home from "./pages/Home";
 import Plans from "./pages/Plans";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  AOS.init({
+    offset: 100,
+    duration: 600,
+  });
   return (
-    <div className="App">
+    <div className="App overflow-hidden">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navbar />}>
