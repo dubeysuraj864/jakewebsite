@@ -2,9 +2,9 @@ import Phone from "../images/phone.png";
 
 function Faq() {
   return (
-    <>
-      <div className="faq">
-        <div className="heading  text-center font-bold flex justify-center text-8xl md:text-9xl">
+    <div className="bg-[#006c61] text-white py-20">
+      <div className="faq ">
+        <div className="heading  text-center font-bold flex justify-center text-7xl md:text-9xl">
           What do <br /> you get?
         </div>
       </div>
@@ -80,7 +80,7 @@ function Faq() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

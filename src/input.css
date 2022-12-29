@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.name, .heading, .quote{
-    font-family: 'Great Vibes', cursive;
+.name,
+.heading,
+.quote {
+  font-family: "Black Han Sans", sans-serif;
+}
+.App ,
+.body {
+  font-family: "League Spartan", sans-serif;
 }

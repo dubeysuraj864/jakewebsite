@@ -107,7 +107,7 @@ function Questions() {
         <section>
           <p>How can I help you?</p>
           <button
-            className="bg-[#ed2846] text-white px-4 py-3 rounded-md shadow-xl my-2 focus:bg-[#f5516a]"
+            className="bg-[#ed2846] button text-white px-4 py-3 rounded-md shadow-xl my-2 focus:bg-[#f5516a]"
             type="button"
             onClick={() => {
               console.log("click");
@@ -119,7 +119,7 @@ function Questions() {
           </button>{" "}
           <br />
           <button
-            className="bg-[#ed2846] focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
+            className="bg-[#ed2846] button focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
             type="button"
             onClick={() => {
               console.log("click");
@@ -131,7 +131,7 @@ function Questions() {
           </button>{" "}
           <br />
           <button
-            className="bg-[#ed2846] focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
+            className="bg-[#ed2846] button focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
             type="button"
             onClick={() => {
               console.log("click");
@@ -146,7 +146,7 @@ function Questions() {
         <section>
           <p>How do you identify?</p>
           <button
-            className="bg-[#ed2846] text-white px-4 py-3 rounded-md shadow-xl my-2 focus:bg-[#f5516a]"
+            className="bg-[#ed2846] button text-white px-4 py-3 rounded-md shadow-xl my-2 focus:bg-[#f5516a]"
             type="button"
             onClick={() => {
               console.log("click");
@@ -158,7 +158,7 @@ function Questions() {
           </button>{" "}
           <br />
           <button
-            className="bg-[#ed2846] focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
+            className="bg-[#ed2846] button focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
             type="button"
             onClick={() => {
               console.log("click");
@@ -170,7 +170,7 @@ function Questions() {
           </button>{" "}
           <br />
           <button
-            className="bg-[#ed2846] focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
+            className="bg-[#ed2846] button focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
             type="button"
             onClick={() => {
               console.log("click");
@@ -185,7 +185,7 @@ function Questions() {
         <section>
           <p>I am</p>
           <button
-            className="bg-[#ed2846] text-white px-4 py-3 rounded-md shadow-xl my-2 focus:bg-[#f5516a]"
+            className="bg-[#ed2846] button text-white px-4 py-3 rounded-md shadow-xl my-2 focus:bg-[#f5516a]"
             type="button"
             onClick={() => {
               console.log("click");
@@ -197,7 +197,7 @@ function Questions() {
           </button>{" "}
           <br />
           <button
-            className="bg-[#ed2846] focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
+            className="bg-[#ed2846] button focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
             type="button"
             onClick={() => {
               console.log("click");
@@ -209,7 +209,7 @@ function Questions() {
           </button>{" "}
           <br />
           <button
-            className="bg-[#ed2846] focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
+            className="bg-[#ed2846] button focus:bg-[#f5516a] text-white px-4 py-3 rounded-md shadow-xl my-2"
             type="button"
             onClick={() => {
               console.log("click");
