@@ -5,7 +5,7 @@ function Footer() {
         <div className="py-10">
           <div className="flex text-2xl justify-center ">
             <div className="Insta m-5"> <a href="https://www.instagram.com/jake_butler2nd_account_/" target="_blank" rel="noopener noreferrer">Instagram</a></div>
-            <div className="tiktok m-5">TikTok</div>
+            <div className="Insta m-5"> <a href="https://www.instagram.com/jake_butler2nd_account_/" target="_blank" rel="noopener noreferrer">SnapChat</a></div>
           </div>
           <div className="heading text-3xl my-5">
             Terms and Conditions <br />
