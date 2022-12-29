@@ -14,7 +14,7 @@ function Footer() {
      </div>
         <hr className="border-white border w-full opacity-30" />
         <div className="flex flex-col items-center justify-center py-3">
-        Copyright ©2022 Sollie Bowen. All rights reserved. Powered by Lenus.io
+        Copyright ©2022 Jake Bulter. All rights reserved. Developer @dubeysuraj864
         </div>
       </div>
     </>
