@@ -90,4 +90,17 @@ p {
     .body{
         overflow: hidden;
     }
+    .button {
+        background: rgb(237, 40, 70);
+        border-radius: 5px;
+        padding: 10px 25px;
+        display: inline-block;
+        margin: 10px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.5);
+        font-size: 20px;
+        font-weight: bold;
+      }
 }

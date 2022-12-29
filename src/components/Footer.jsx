@@ -1,11 +1,11 @@
 function Footer() {
   return (
     <>
-      <div className="footer bg-blue-800 text-white flex flex-col items-center text-center py-0">
+      <div className="footer bg-[#011141] text-white flex flex-col items-center text-center py-0">
      <div className="py-10">
      <div className="flex text-2xl justify-center ">
-          <div className="Insta m-5">INSTAGRAM</div>
-          <div className="tiktok m-5">TIKTOK</div>
+          <div className="Insta m-5">Instagram</div>
+          <div className="tiktok m-5">TikTok</div>
         </div>
         <div className="heading text-3xl my-5">
           Terms and Conditions <br />
