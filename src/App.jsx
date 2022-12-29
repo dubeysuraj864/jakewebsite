@@ -5,6 +5,10 @@ import Home from "./pages/Home";
 import Plans from "./pages/Plans";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Payments from "./components/Payments";
+import Payments2 from "./components/Payments2";
+import Payments3 from "./components/Payments3";
+
 function App() {
   AOS.init({
     offset: 100,
@@ -18,6 +22,9 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/plans" element={<Plans />} />
             <Route path="/coaching" element={<Questions />} />
+            <Route path="/workout_plan" element={<Payments />} />
+            <Route path="/nutrition_plan" element={<Payments2 />} />
+            <Route path="/workout_nutrition_plan" element={<Payments3 />} />
           </Route>
         </Routes>
       </BrowserRouter>

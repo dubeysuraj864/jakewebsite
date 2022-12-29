@@ -1,8 +1,20 @@
 import Footer from "../components/Footer";
+import {$} from "jquery";
+import { Link } from "react-router-dom";
 
 function Plans() {
+  function refreshPage(){
+    $(document).ready(function(e) {
+      var $input = $('#refresh');
+      $input.val() === 'yes' ? window.location.reload(true) : $input.val('yes');
+  });
+  }
+ 
+  
   return (
     <>
+    
+     
       <div className="plans overflow-hidden">
         <div className="top bg-[#e54f3f] text-white py-5 md:py-10">
           <div
@@ -38,9 +50,9 @@ function Plans() {
                 experience, injuries and much more.
               </div>
               <div className="btn w-full">
-                <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-[#e54f3f] text-white rounded-lg">
+              <Link onClick={refreshPage} to="/workout_plan"> <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-[#e54f3f] text-white rounded-lg">
                   Get Started!
-                </button>
+                </button></Link>
               </div>
             </div>
             {/* ------------------------ */}
@@ -60,9 +72,10 @@ function Plans() {
                 your goal.
               </div>
               <div className="btn w-full">
-                <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-[#e54f3f] text-white rounded-lg">
+               
+                <Link to="/nutrition_plan"> <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-[#e54f3f] text-white rounded-lg">
                   Get Started!
-                </button>
+                </button></Link>
               </div>
             </div>
 
@@ -83,13 +96,17 @@ function Plans() {
                 everyday life.
               </div>
               <div className="btn w-full">
-                <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-[#e54f3f] text-white rounded-lg">
+              <Link to="/workout_nutrition_plan"> <button className=" w-[76vw] md:w-[16vw] mx-2 py-2 bg-[#e54f3f] text-white rounded-lg">
                   Get Started!
-                </button>
+                </button></Link>
+                
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        
       </div>
       <div>
         <Footer />
